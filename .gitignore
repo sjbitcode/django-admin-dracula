@@ -163,5 +163,6 @@ cython_debug/
 
 # Miscellaneous
 misc/
-.vscode/
+.vscode
 .ruff_cache/
+.python-version

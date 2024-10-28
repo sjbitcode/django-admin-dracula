@@ -1,20 +1,48 @@
-# Dracula for [Foobar](https://foobar.com)
+# Dracula for [Django Admin](https://docs.djangoproject.com/en/stable/ref/contrib/admin/)
 
-> A dark theme for [Foobar](https://foobar.com).
+> A dark (and light 🕯️) theme for the [Django Admin](https://docs.djangoproject.com/en/stable/ref/contrib/admin/).
 
-![Screenshot](./screenshot.png)
+![Screenshot](https://github.com/sjbitcode/django-admin-dracula/blob/main/screenshot.png?raw=true)
+
+![PyPI](https://img.shields.io/pypi/v/django-admin-dracula?&color=%23bd93f9)
+![PyPI downloads](https://img.shields.io/pypi/dm/django-admin-dracula?color=%23ff79c6)
+![Python versions](https://img.shields.io/pypi/pyversions/django-admin-dracula?color=%238be9fd)
+![Django versions](https://img.shields.io/pypi/frameworkversions/django/django-admin-dracula?color=%2345de6b)
 
 ## Install
 
-All instructions can be found at [draculatheme.com/foobar](https://draculatheme.com/foobar).
+### Install the dracula theme
+```bash
+pip install django-admin-dracula
+```
+
+### Add to Django project
+Add `django_admin_dracula` to your `INSTALLED_APPS` **before** `django.contrib.admin`:
+
+```python
+INSTALLED_APPS = [
+    ...
+    "django_admin_dracula",
+    ...
+    "django.contrib.admin",
+    ...
+]
+```
+
+### Celebrate ✨
+Put on your favorite dracula cape and dump all your remaining garlic! 🧄
+
+## Themes
+
+Check out some more screenshots of the light and dark themes [here](https://github.com/sjbitcode/django-admin-dracula/blob/main/THEMES.md)!
 
 ## Team
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/foobar/graphs/contributors).
 
-| [![Zeno Rocha](https://github.com/zenorocha.png?size=100)](https://github.com/zenorocha) | [![Lucas de França](https://github.com/luxonauta.png?size=100)](https://github.com/luxonauta) |
-| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [Zeno Rocha](https://github.com/zenorocha)                                               | [Lucas de França](https://github.com/luxonauta)                                               |
+| [![Sangeeta Jadoonanan](https://github.com/sjbitcode.png?size=100)](https://github.com/sjbitcode) |
+| ---------------------------------------------------------------------------------------- |
+| [Sangeeta Jadoonanan](https://github.com/sjbitcode) |
 
 ## Community
 

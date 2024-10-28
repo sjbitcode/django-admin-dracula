@@ -1,9 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "django-admin-dracula"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.0.1"
+description = "Dracula theme for the Django admin"
+authors = [
+    {name="Sangeeta Jadoonanan", email="sjbitcode@gmail.com"}
+]
 readme = "README.md"
-requires-python = ">=3.10"
+license = "MIT"
+keywords = [
+    "django",
+    "django admin",
+    "dracula",
+    "dracula theme",
+    "python"
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+requires-python = ">=3.9"
 dependencies = [
-    "django>=5.1.1",
+    "django>=4.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/sjbitcode/django-admin-dracula"
+Repository = "https://github.com/sjbitcode/django-admin-dracula"
+Issues = "https://github.com/sjbitcode/django-admin-dracula/issues"
+
+[tool.uv]
+dev-dependencies = [
+    "coverage>=7.6.4",
 ]
