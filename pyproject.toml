@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "django-admin-dracula"
-version = "0.0.1"
+version = "0.0.2"
 description = "Dracula theme for the Django admin"
 authors = [
     {name="Sangeeta Jadoonanan", email="sjbitcode@gmail.com"}
@@ -28,6 +28,10 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Framework :: Django :: 5.1",
 ]
 requires-python = ">=3.9"
 dependencies = [
