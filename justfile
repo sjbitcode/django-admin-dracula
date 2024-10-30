@@ -12,3 +12,6 @@ format:
 
 test_publish:
     uv publish --publish-url https://test.pypi.org/legacy/ --token $TEST_PYPI_TOKEN
+
+publish:
+    uv publish --token $PYPI_TOKEN
