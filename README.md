@@ -5,9 +5,9 @@
 ![Screenshot](https://github.com/sjbitcode/django-admin-dracula/blob/main/screenshot.png?raw=true)
 
 ![PyPI](https://img.shields.io/pypi/v/django-admin-dracula?&color=%23bd93f9)
-![PyPI downloads](https://img.shields.io/pypi/dm/django-admin-dracula?color=%23ff79c6)
 ![Python versions](https://img.shields.io/pypi/pyversions/django-admin-dracula?color=%238be9fd)
 ![Django versions](https://img.shields.io/pypi/frameworkversions/django/django-admin-dracula?color=%2345de6b)
+<!-- ![PyPI downloads](https://img.shields.io/pypi/dm/django-admin-dracula?color=%23ff79c6) -->
 
 ## Install
 
