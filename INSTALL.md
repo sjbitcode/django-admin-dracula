@@ -1,19 +1,22 @@
-### [Foobar](https://foobar.com)
+### [Django Admin](https://docs.djangoproject.com/en/stable/ref/contrib/admin/)
 
-#### Install using Git
-
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
-
+### Install the dracula theme
 ```bash
-git clone https://github.com/dracula/foobar.git
+pip install django-admin-dracula
 ```
 
-#### Install manually
+### Add to Django project
+Add `django_admin_dracula` to your `INSTALLED_APPS` **before** `django.contrib.admin`:
 
-Download using the [GitHub `.zip` download](https://github.com/dracula/foobar/archive/main.zip) option and unzip them.
+```python
+INSTALLED_APPS = [
+    ...
+    "django_admin_dracula",
+    ...
+    "django.contrib.admin",
+    ...
+]
+```
 
-#### Activating theme
-
-1. Do this;
-2. Then that;
-3. Boom! It's working ✨
+### Celebrate ✨
+Put on your favorite dracula cape and dump all your remaining garlic! 🧄
