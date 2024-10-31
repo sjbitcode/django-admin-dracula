@@ -139,7 +139,7 @@
 
 #nav-filter:focus {
     border-color: var(--dracula-green-tame);  /* dracula theme */
-    outline: none;
+    outline: none;                            /* dracula theme */
 }
 
 /* dracula theme */

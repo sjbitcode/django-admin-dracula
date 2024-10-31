@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "django-admin-dracula"
-version = "0.0.2"
+version = "0.0.3"
 description = "Dracula theme for the Django admin"
 authors = [
     {name="Sangeeta Jadoonanan", email="sjbitcode@gmail.com"}

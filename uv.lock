@@ -98,7 +98,7 @@ wheels = [
 
 [[package]]
 name = "django-admin-dracula"
-version = "0.0.0"
+version = "0.0.3"
 source = { editable = "." }
 dependencies = [
     { name = "django" },
