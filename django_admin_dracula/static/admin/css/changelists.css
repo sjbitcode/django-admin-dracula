@@ -101,7 +101,7 @@
 
 #toolbar #searchbar:focus {
     border-color: var(--dracula-green);  /* dracula theme */
-    outline: none;
+    outline: none;                       /* dracula theme */
 }
 
 /* dracula theme */
@@ -321,8 +321,8 @@
 }
 
 #changelist .actions select:focus {
-    outline: none;                            /* dracula theme */
     border-color: var(--dracula-green-tame);  /* dracula theme */
+    outline: none;                            /* dracula theme */
 }
 
 #changelist .actions label {
