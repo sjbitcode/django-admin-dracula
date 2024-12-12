@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> This project has been moved to the official Dracula theme Github organization over at https://github.com/dracula/django-admin.
+
 # Dracula for [Django Admin](https://docs.djangoproject.com/en/stable/ref/contrib/admin/)
 
 > A dark (and light 🕯️) theme for the [Django Admin](https://docs.djangoproject.com/en/stable/ref/contrib/admin/).
